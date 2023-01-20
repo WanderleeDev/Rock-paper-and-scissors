@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+.main-title{
+  @apply text-center text-3xl text-red-300 py-8 hover:text-blue-400 hover:transition-colors;
+}
+.container-btn{
+  @apply w-11/12 p-4 flex flex-wrap justify-evenly m-auto bg-yellow-700 md:w-6/12;
+}
+.btn-basic{
+  @apply rounded-2xl bg-white border-2 border-slate-400 focus:border-green-500;
+}
+.box{
+  @apply w-full mt-12 placeholder:text-indigo-300 focus:border-2 focus:border-indigo-500;
+}
+@tailwind utilities;
