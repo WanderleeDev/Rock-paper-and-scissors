@@ -10,6 +10,6 @@
   @apply rounded-2xl bg-white border-2 border-slate-400 focus:border-green-500;
 }
 .box{
-  @apply w-full pointer-events-none h-40 mt-12 placeholder:text-indigo-300 focus:border-2 focus:border-indigo-500 resize-none text-5xl text-center;
+  @apply pointer-events-none h-40 mt-12 placeholder:text-indigo-300 focus:border-2 focus:border-indigo-500 resize-none text-5xl text-center;
 }
 @tailwind utilities;
