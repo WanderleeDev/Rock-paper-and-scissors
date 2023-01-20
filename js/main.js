@@ -39,10 +39,10 @@ function play(user) {
 
 scissors.addEventListener("click", function () {
   play("tijera");
-},)
+});
 paper.addEventListener("click", function () {
   play("papel");
-},)
+});
 stone.addEventListener("click", function () {
   play("piedra");
-},)
+});
