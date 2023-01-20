@@ -572,6 +572,7 @@ video {
   pointer-events: none;
   margin-top: 3rem;
   height: 10rem;
+  width: 100%;
   resize: none;
   text-align: center;
   font-size: 3rem;
@@ -592,9 +593,4 @@ video {
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(99 102 241 / var(--tw-border-opacity));
-}
-
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
